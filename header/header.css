@@ -1,0 +1,226 @@
+.logo1 {
+    width: 170px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.logo2 {
+    width: 54px;
+    height: 55px;
+    margin: 8px 8px;
+}
+
+.header .app-logo {
+    background-color: #fff;
+    transition: background 0.25s ease;
+    -webkit-transition: background 0.25s ease;
+    -moz-transition: background 0.25s ease;
+    -ms-transition: background 0.25s ease;
+    -webkit-box-shadow: 0px 5px 21px -5px #CDD1E1;
+    -moz-box-shadow: 0px 5px 21px -5px #CDD1E1;
+    box-shadow: 0px 5px 21px -5px #CDD1E1;
+
+}
+
+.header .hdr-open {
+    width: 260px;
+}
+
+.header .hdr-close {
+    width: 70px;
+}
+
+.header {
+    background-color: #fff;
+    height: 70px;
+    font-weight: 400;
+    transition: background 0.25s ease;
+    -webkit-transition: background 0.25s ease;
+    -moz-transition: background 0.25s ease;
+    -ms-transition: background 0.25s ease;
+    -webkit-box-shadow: 0px 5px 21px -5px #CDD1E1;
+    -moz-box-shadow: 0px 5px 21px -5px #CDD1E1;
+    box-shadow: 0px 5px 21px -5px #CDD1E1;
+}
+
+.searchInput {
+    background-color: red;
+}
+
+.acc-profile {
+    height: 52px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+#dropdown-basic {
+    background-color: #FAFBFD;
+    border-color: #FAFBFD;
+    display: flex;
+
+}
+
+.setting-icon {
+    font-size: 22px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
+.userDetails {
+
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userDetails .user-name {
+    font-size: 14px;
+    font-weight: 300;
+    color: #af2516
+}
+
+.userDetails .user-role {
+    font-size: 12px;
+    font-weight: 100;
+    color: #444
+}
+
+.menu-button {
+    cursor: pointer;
+    padding-top: 14px;
+    padding-left: 14px;
+    font-size: 22px;
+}
+
+.dropdown-icon {
+    margin-right: 8px;
+    font-size: 18px;
+    color: #6c757d;
+}
+
+.VersionAlpha {
+    cursor: pointer;
+    text-align: center;
+    margin-top: 7px;
+    background-color: #6c757d;
+    color: #fff;
+    padding-bottom: 6px;
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: -8px;
+}
+
+.colored-toast {
+    background-color: #67ae67 !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+
+/* feedback----css-suraj */
+.feedback-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8b5cf6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    transition: width 0.2s;
+    color: white;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+
+.feedback-hover-text{
+    color: #272e94;
+}
+
+.feedback {
+    max-width: 0;
+    opacity: 0;
+    transition: max-width 0.3s, opacity 0.3s;
+}
+
+.feedback-button:hover {
+    width: 100px;
+    border-radius: 20px;
+}
+
+.feedback-button:hover .feedback {
+    max-width: 100px;
+    /* Adjust the value to control the width of the "feedback" text */
+    opacity: 1;
+}
+
+.popup-container {
+    position: relative;
+}
+
+.popup {
+    position: fixed;
+    /* top: calc(100% + 8px); Adjust the spacing as needed */
+    z-index: 9999;
+    background-color:#18181b;
+    color: white;
+    width: 100%;
+    max-width: 450px;
+    /* Adjust as needed */
+    border-radius: 4px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    right:0px;
+}
+
+.popup-header {
+    /* Header styles */
+}
+
+/* .popup-body { */
+    /* display: flex; */
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px; */
+/* } */
+.body-button{
+    flex: 1;
+}
+
+.popup-footer {
+    /* Footer styles */
+}
+
+.close-button {
+    /* Close button styles */
+}
+
+.feedback-type-btn>button:hover{
+    border: 2px solid #8b5cf6 !important;
+    background-color: #27272a;
+    border-radius: 6px;
+}
+.feedback-type-btn>button{
+    background-color: #27272a;
+    border-radius: 6px;
+}
+.feedback-textarea{
+    background-color: #18181b;
+    height: 100px;
+    border-radius: 3px;
+    color: white;
+}
+.feedback-textarea:focus{
+    border: 2px solid #8b5cf6;
+}
+.submit-button{
+    background-color: #523a89;
+}
+.submit-button:active{
+    background-color: #8b5cf6;
+}
